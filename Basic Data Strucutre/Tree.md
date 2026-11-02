@@ -1,7 +1,7 @@
 ## What is it?
 [[vector]]
-[[learning/DS/Notes/Stack and Queue|Stack and Queue]]
-[[learning/DS/Notes/Linked list|Linked list]]
+[[learning/DS/Data stucture/Basic Data Strucutre/Stack and Queue|Stack and Queue]]
+[[learning/DS/Data stucture/Basic Data Strucutre/Linked list|Linked list]]
 Dynamic Data structure 
 
 ```text

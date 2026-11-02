@@ -1,4 +1,4 @@
-[[Tree]][[Suffix array]][[Disjoint set]][[learning/DS/Notes/Stack and Queue|Stack and Queue]]
+[[Tree]][[Suffix array]][[Disjoint set]][[learning/DS/Data stucture/Basic Data Strucutre/Stack and Queue|Stack and Queue]]
 
 # Graph Terms and Definitions
 

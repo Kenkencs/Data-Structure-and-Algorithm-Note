@@ -1,6 +1,6 @@
 ## What is it?
 [[vector]]
-[[learning/DS/Notes/Stack and Queue|Stack and Queue]]
+[[learning/DS/Data stucture/Basic Data Strucutre/Stack and Queue|Stack and Queue]]
 Dynamic Data structure 
 
 链表是一种**物理存储单元上非连续、非顺序**的线性数据结构。它由一系列节点（Node）组成。
