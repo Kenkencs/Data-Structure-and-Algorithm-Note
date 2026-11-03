@@ -43,6 +43,7 @@ return AB , ABCAB
 
 ==🔴Binary search ->O(P log T)==
 
+the suffixes are sorted lexicographically
 
 | QSort , comparison sort | Radix sort | Doubling    | Skew |
 | ----------------------- | ---------- | ----------- | ---- |

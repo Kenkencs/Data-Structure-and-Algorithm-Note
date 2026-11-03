@@ -290,73 +290,6 @@ Option 2: Inorder successor
 ```
 
 ---
-## Heap
-
-> Min - heap's root is the smallest among the tree , and the bottom level is left to right
-> Level 越高，value 越小
-
-Left child of i:
-2i + 1
-
-Right child of i:
-2i + 2
-
-Parent of i:
-floor((i - 1) / 2)
-
-```mermaid
-graph TB
-    A((8))
-    B((3))
-    C((10))
-    D((1))
-    E((6))
-    F((14))
-
-
-    A --- B
-    A --- C
-    B --- D
-    B --- E
-    C --- F
-```
-
-### Insertion
-
-so how like bubble sort
-
-
-Worst case : o(log n)
-
-```txt
-append at the end , then compare with parent , if smaller , change , loop
-```
-
-### Delete min
-
-1. find left/right child
-2. choose smaller child
-3. if parent <= smaller child → stop
-4. otherwise swap
-5. continue from new position
-
-Worst case : o(log n)
-
-```
-bubble up the end , compare , swap min if need , may need swap again
-```
-
-```cpp
-priority_queue <int> pq
-```
-is a method to create the max heap
-
-```cpp
-priority_queue<int, vector<int>, greater<int>> pq;
-```
-is to create min heap
-
----
 # Application
 
 ## DFS , depth first search 深度优先搜索
@@ -423,7 +356,7 @@ function MinValue(node, α, β):
 ```
 
 ---
-# AVL tree P59
+# AVL tree 
 >|height(left subtree) - height(right subtree)| <= 1
 
 ```
@@ -458,7 +391,7 @@ void rotateLL(Node & v)
 	v = x;
 }
 ```
-
+rotate right
 ### RR
 ```
     20 ← v
@@ -479,6 +412,7 @@ void rotateRR(Node & v)
 }
 ```
 
+rotate left
 ### LR
 ```txt
         40
@@ -499,7 +433,7 @@ void rotateRR(Node & v)
       30
      /
     20
-3.rotate again ->left
+3.rotate again ->right
 
         30
        /  \
@@ -531,7 +465,7 @@ void rotateRR(Node & v)
    40
      \
       50
-3.rotate again ->right
+3.rotate again ->left
       40
      /  \
     20   50
